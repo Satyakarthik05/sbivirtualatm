@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main">
+        <img src="SBI3.jpg" alt="">
+        <h1 class="sbi">SBI</h1>
+    </div>
+    <div class="navbar">
+        <h1>please enter your pin</h1>
+    </div>
+    <div class="input">
+        <input type="password" id="inputfield" >
+        <div class="butt">
+            <button id="button">Press Here</button>
+        </div>
+    </div>
+    <footer class="fott">
+        <marquee behavior="" direction="">!hello customer</marquee>
+    </footer>
+    <script>
+        let userInputValue = document.getElementById("inputfield");
+        let button = document.getElementById("button");
+        button.addEventListener('click', ()=> {
+            console.log(userInputValue);
+            if (userInputValue.value ==="1430"){
+                window.location.href ='press here.html';
+
+            }
+            else {
+                alert("please enter correct pin");
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* margin-left: 600px; */
+    font-size: 60px;
+    margin-top: 10px;
+}
+.sbi {
+    margin-left: 10px;
+    color: white;
+}
+body {
+    background: linear-gradient(90deg,rgb(93,217,241),rgb(55,74,117)); 
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+img {
+    height: 120px;
+    background: transparent;
+    background-color: blue;
+    border-radius: 60px;
+}
+.navbar {
+    border: none;
+    height: 90px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: lightskyblue; 
+}
+.butt{
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+button {
+    width: 220px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: lightskyblue;
+    color: white;
+}
+@media screen and (max-width: 700px) {
+    .main {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 70px; */
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .sbi {
+        margin-left: 10px;
+        color: white;
+    }
+    body {
+        background: linear-gradient(90deg,rgb(93,217,241),rgb(55,74,117)); 
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+    }
+    img {
+        height: 60px;
+        background: transparent;
+        background-color: blue;
+        border-radius: 60px;
+    }
+    .navbar {
+        border: none;
+        height: 40px;
+        margin-top: 20px;
+        text-align: center;
+        color: white;
+        font-size: 13px;
+        background-color: lightskyblue; 
+    }
+    .butt{
+        text-align: right;
+        margin-top: 60px;
+        margin-right: 50px;
+    }
+    button {
+        width: 220px;
+        height: 50px;
+        border-radius: 20px;
+        background-color: lightskyblue;
+        color: white;
+    }
+
+}

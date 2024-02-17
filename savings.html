@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="savings.css">
+</head>
+<body>
+    <div class="main">
+        <img src="SBI3.jpg" alt="">
+        <h1 class="sbi">SBI</h1>
+    </div>
+    <div class="navbar">
+        <h1>ENTER AMOUNT TO WITHDRAWL</h1>
+    </div>
+    <div class="input">
+        <input type="number" maxlength="5" id="inputfield">
+        <div class="butt">
+            <button id="button">ENTER</button>
+        </div>
+    </div>
+    <script>
+        let userInputValue = document.getElementById("inputfield");
+        let button = document.getElementById("button");
+        button.addEventListener('click', ()=> {
+            console.log(userInputValue);
+            if (userInputValue.value <=5000){
+                window.location.href ='withdrawfinal.html';
+
+            }
+            else {
+                alert("enter amount below 5000");
+            }
+        })
+    </script>
+</body>
+</html>
